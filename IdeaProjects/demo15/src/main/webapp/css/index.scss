@@ -1,0 +1,77 @@
+html {
+  height: 100%;
+  background: linear-gradient(3deg, rgba(82,80,80,1) 0%, rgba(23,23,23,1) 55%);
+}
+
+h1{
+  color: #c5c5c5;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #c5c5c5;
+  font-size: 14px;
+  transition: 0.3s;
+  text-decoration: none;
+  margin-top: -17px;
+}
+
+a:hover{
+  color: #e1dfdf;
+  font-size: 15px;
+}
+
+.form-submit{
+  margin-top: -5px;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 5px;
+  background: #c5c5c5;
+  color: #545353;
+  height: 40px;
+  width: 150px;
+  transition: 0.3s;
+}
+
+.form-submit:hover {
+  background: #e1dfdf;
+}
+
+.register-form{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toServletForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.toLoginBtn{
+  font-family: 'Montserrat', sans-serif;
+  color: #c5c5c5;
+  font-size: 14px;
+  transition: 0.3s;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.onlyLoginBtn{
+  margin-top: -15px;
+}
+
+.toLoginBtn:hover{
+  color: #e1dfdf;
+  font-size: 16px;
+}
